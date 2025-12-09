@@ -1,9 +1,16 @@
 # embedding.py
 from sentence_transformers import SentenceTransformer
+from pathlib import Path
+try:
+    from config import EMBEDDING_MODEL, EMBEDDING_CACHE_FOLDER
+except ImportError:
+    # Fallback if config not available
+    EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+    EMBEDDING_CACHE_FOLDER = str(Path(__file__).parent / "huggingface_models")
 
 embed_model = SentenceTransformer(
-    "sentence-transformers/all-MiniLM-L6-v2",
-    cache_folder="D:/huggingface_models"
+    EMBEDDING_MODEL,
+    cache_folder=EMBEDDING_CACHE_FOLDER
 )
 
 class LocalEmbedding:

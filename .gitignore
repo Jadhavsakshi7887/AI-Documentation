@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Django (legacy)
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+
+# FastAPI/Streamlit
+*.db
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Vector stores
+chroma_vectorstore/
+*.chroma
+
+# Uploads
+temp_uploads/
+*.pdf
+*.doc
+*.docx
+*.txt
+
+# Models
+huggingface_models/
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+

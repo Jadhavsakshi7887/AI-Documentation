@@ -4,7 +4,7 @@ from rag_query import rag_query
 
 if __name__ == "__main__":
     print("\n--- RAG Test ---\n")
-    pdf_path = "C:\\Users\\Dell\\Downloads\\SakshiJadhavResume (1).pdf"
+    pdf_path = "C:\\Users\\Dell\\Downloads\\SakshiJadhav (3).pdf"
 
     try:
         initialize_vectorstore(pdf_path)
