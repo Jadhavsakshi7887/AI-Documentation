@@ -1,7 +1,29 @@
-streamlit==1.28.0
-google-generativeai==0.3.2
+# FastAPI Backend
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Streamlit Frontend
+streamlit==1.28.1
+requests==2.31.0
+
+# RAG and Vector Store
+langchain==0.1.0
+langchain-community==0.0.10
+chromadb==0.4.18
+sentence-transformers==2.2.2
+
+# Document Processing
+unstructured==0.11.6
+pypdf2==3.0.1
+
+# Utilities
 python-dotenv==1.0.0
-cryptography==41.0.0
-validators==0.22.0
-hashlib2==1.0.0
- 
+numpy==1.26.4
+pandas==2.1.4
+altair==5.1.2
+
+# Python 3.11 compatible versions
+typing-extensions==4.8.0
+
