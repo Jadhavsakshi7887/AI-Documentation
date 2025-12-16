@@ -21,7 +21,7 @@ pypdf2==3.0.1
 # Utilities
 python-dotenv==1.0.0
 numpy==1.26.4
-pandas==2.1.4
+pandas==1.5.3
 altair==5.1.2
 
 # Python 3.11 compatible versions
